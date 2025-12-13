@@ -1,0 +1,1635 @@
+/* BELOW 576px */
+@media (max-width: 575px) {
+  .hero-container {
+    flex-direction: column;
+  }
+
+  .hero-left {
+    width: 100%;
+    padding:1rem;
+  }
+
+  .logo {
+    font-size: 36px;
+  }
+
+  .sub-title {
+    font-size: 28px;
+  }
+
+  .title-line {
+    width: 60px;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .header-nav{
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .description {
+    width: 90%;
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+
+  .menu-btn{
+    margin-right: 2rem;
+  }
+
+  .services-btn {
+    font-size: 12px;
+  }
+
+ .hero-right {
+    width: 100%;
+    height: 550px;
+  }
+
+  .line-wrapper {
+    display: none;
+  }
+
+   .about-section {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .about-section-content {
+    flex-direction: column-reverse;
+    width: 95%;
+    margin: auto;
+  }
+
+  .about-section .image-div img {
+    width: 80%;
+    margin: 1rem auto;
+  }
+
+  .about-section .text-div {
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .about-section .text-div h2 {
+    font-size: 32px;
+  }
+
+  .about-section h2 .special-heading-wrapper {
+    justify-content: center;
+  }
+
+  .heading-line {
+    width: 60px;
+  }
+
+  .about-section h2 .main-title {
+    font-size: 24px;
+  }
+
+  .about-section p {
+    font-size: 12px;
+    width: 80%;
+    margin: auto;
+  }
+
+  .services-section {
+    grid-template-columns: 1fr;
+  }
+
+  .service-card {
+    padding: 2rem 1rem;
+  }
+
+  .service-top {
+    font-size: 36px;
+  }
+
+  .service-title {
+    font-size: 24px;
+  }
+
+  .service-sub {
+    font-size: 14px;
+    margin-bottom: 3rem;
+  }
+
+  .service-btn {
+    font-size: 11px;
+    padding: 8px 20px;
+  }
+
+  .section-content {
+    flex-direction: column-reverse;
+    gap: 1rem;
+    width: 80%;
+    margin: auto;
+  }
+
+  .black-bg {
+    margin: 1rem 0;
+    height: auto;
+    padding: 0.5rem;
+  }
+
+  .black-bg img {
+    width: 100%;
+    height: auto;
+  }
+
+  .meet-expert-text-content .special-heading-wrapper {
+    font-size: 32px;
+    justify-content: center;
+  }
+
+  .meet-expert-text-content .main-title {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .meet-expert-text-content p {
+    font-size: 13px;
+    width: 100%;
+    text-align: justify;
+  }
+
+   .circle-container {
+    height: auto;
+  }
+
+  .center-image {
+    position: relative;
+    width: 80%;
+    height: auto;
+    top: unset;
+    left: unset;
+    transform: none;
+    margin: 2rem auto;
+  }
+
+  
+  .feature {
+    position: static !important;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .feature .icon-with-title {
+    justify-content: center;
+  }
+
+  .left-feature h3,
+  .right-feature h3,
+  .left-feature p,
+  .right-feature p {
+    text-align: center;
+    text-wrap: wrap;
+  }
+  .left-feature h3,
+  .right-feature h3{
+    line-height: 1;
+  }
+
+  .feature-1, .feature-2,
+  .feature-3, .feature-4,
+  .feature-5, .feature-6 {
+    top: unset !important;
+    left: unset !important;
+    right: unset !important;
+  }
+
+  .prices-section {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .prices-left {
+    width: 100%;
+  }
+
+  .prices-section h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .prices-section .gold-script {
+    font-size: 46px;
+    text-align: center;
+    margin-left: 5rem;
+  }
+
+  .prices-section .the-line-wrapper{
+    justify-content: center;
+  }
+
+  .appointment-btn {
+    margin: auto;
+    margin-top: 3rem;
+   
+  }
+
+  .prices-right {
+    width: 100%;
+  }
+
+  .price-row {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .price-row h3 {
+    font-size: 18px;
+    margin-top: 2rem;
+  }
+
+  .prices-section .price {
+    font-size: 18px;
+  }
+
+  .price-desc {
+    width: 100%;
+    font-size: 13px;
+  }
+
+  .line {
+    width: 60%;
+    margin: 6px auto;
+  }
+
+   .counter-section {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+
+  .front-text {
+    font-size: 32px;
+  }
+
+  .back-text {
+    font-size: 60px;
+  }
+
+  .counter-box p {
+    font-size: 13px;
+  }
+
+  .gallery-section {
+    padding: 1.5rem 1rem;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+  }
+
+  .gallery-item img {
+    height: 220px;
+  }
+
+  .gallery-section h2 {
+    font-size: 28px;
+  }
+
+  .gallery-section .gold-script {
+    font-size: 40px;
+  }
+
+  .testi-section {
+    padding: 1.5rem 1rem;
+    background-position: center;
+  }
+
+  .testi-section h2 {
+    font-size: 32px;
+  }
+
+  .testi-wrapper {
+    margin-top: 1.5rem;
+  }
+
+  .testi-card {
+    padding: 1rem;
+    max-width: 80%;
+  }
+
+  .testi-section h2{
+    line-height: 1;
+  }
+
+  .testi-card p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .nav-btn {
+    font-size: 40px;
+  }
+
+  .nav-btn.left {
+    left: 0px;
+  }
+
+  .nav-btn.right {
+    right: 0px;
+  }
+
+  .contact-section {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2rem;
+  }
+
+  .contact-left,
+  .contact-form {
+    width: 100%;
+    position: relative;
+    right: 0;
+    padding: 2rem 1rem;
+  }
+
+  .contact-section h2 {
+    font-size: 32px;
+  }
+
+  .contact-desc,
+  .contact-info p,
+  .contact-info h3 {
+    font-size: 14px;
+  }
+
+  .form-2col {
+    flex-direction: column;
+  }
+
+  .submit-btn {
+    width: 100%;
+    padding: 14px;
+  }
+
+  .footer-insta-pop {
+    position: static;
+    width: 95%;
+    margin: 0 auto 2rem auto;
+    height: auto;
+    padding-top: 2rem;
+  }
+
+   .footer-insta-pop .the-line-wrapper{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-insta-pop img {
+    height: 130px;
+  }
+
+  .footer-bottom {
+    width: 100%;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    margin: auto;
+  }
+
+  .footer-insta-pop h2{
+    color: white;
+  }
+
+  .footer-col {
+    width: 100%;
+  }
+
+  .footer-col h3,
+  .footer-col li,
+  .footer-col p,
+  .work-title {
+    text-align: center;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .header-nav {
+    justify-content: space-between;
+  }
+
+  .header-links {
+    display: none;
+  }
+
+  .header-menu-icon {
+    display: block;
+  }
+
+  .header-wrapper .special-heading-wrapper {
+    font-size: 28px;
+  }
+
+   .header-wrapper h1 {
+    font-size: 26px;
+  }
+
+  .header-image {
+    width: 85%;
+  }
+
+  .choose-us-section h2{
+    line-height: 1;
+  }
+}
+
+/* 576px – 768px */
+@media (min-width: 576px) and (max-width: 767px) {
+  .hero-container {
+    flex-direction: column;
+  }
+
+ .hero-left {
+    width: 100%;
+  }
+
+  .hero-right {
+    width: 100%;
+    height: 550px;
+  }
+
+  .logo-menu-wrapper{
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .logo {
+    font-size: 45px;
+  }
+
+  .sub-title {
+    font-size: 36px;
+  }
+
+  .title-line {
+    width: 80px;
+  }
+
+  .title {
+    font-size: 42px;
+  }
+
+  .description {
+    width: 90%;
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+
+  .services-btn {
+    font-size: 13px;
+  }
+
+  .hero-right {
+    width: 100%;
+  }
+
+  .line-wrapper {
+    display: none;
+  }
+
+  .menu-btn,.close-btn{
+    margin-right: 2rem;
+  }
+
+
+  .about-section {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .about-section-content {
+    flex-direction: column-reverse;
+    width: 95%;
+  }
+
+  .about-section .image-div img {
+    width: 80%;
+    margin: 2rem auto;
+  }
+
+  .about-section .text-div {
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .about-section .text-div h2 {
+    font-size: 40px;
+  }
+
+  .heading-line {
+    width: 80px;
+  }
+
+  .about-section h2 .main-title {
+    font-size: 28px;
+  }
+
+  .about-section h2 .special-heading-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .about-section p {
+    font-size: 14px;
+    width: 80%;
+    margin: auto;
+  }
+
+  .services-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .service-card {
+    padding: 3rem 1.5rem;
+  }
+
+  .service-top {
+    font-size: 45px;
+  }
+
+  .service-title {
+    font-size: 28px;
+  }
+
+  .service-sub {
+    font-size: 15px;
+    margin-bottom: 4rem;
+  }
+
+  .service-btn {
+    font-size: 12px;
+    padding: 9px 24px;
+  }
+
+  .section-content {
+    flex-direction: column-reverse;
+    gap: 1.5rem;
+    width: 80%;
+    margin: auto;
+  }
+
+  .black-bg {
+    margin: 1.5rem 0;
+    height: auto;
+    padding: 0.75rem;
+  }
+
+  .black-bg img {
+    width: 100%;
+    height: auto;
+  }
+
+  .meet-expert-text-content .special-heading-wrapper {
+    font-size: 40px;
+    justify-content: center;
+  }
+
+  .meet-expert-text-content .main-title {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .meet-expert-text-content p {
+    font-size: 14px;
+    width: 100%;
+    text-align: justify;
+  }
+   .circle-container {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    position: static;
+  }
+
+ 
+  .feature {
+    position: static !important;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .left-feature h3,
+  .right-feature h3,
+  .left-feature p,
+  .right-feature p,
+  .left-feature .icon,
+  .right-feature .icon {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .features-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    align-items: center;
+   justify-content: center;
+   margin: auto;
+    order: 1;
+  }
+
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    order: 1;
+  }
+
+  .center-image {
+    position: static !important;
+    width: 320px;
+    height: auto;
+    transform: none;
+    order: 2;
+  }
+
+  .feature-4,
+  .feature-5,
+  .feature-6 {
+    order: 3;
+  }
+
+  .prices-section {
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+  }
+
+  .prices-left {
+    width: 100%;
+  }
+
+  .prices-section h2 {
+    font-size: 38px;
+    text-align: center;
+  }
+
+  .prices-section .gold-script {
+    font-size: 55px;
+    text-align: center;
+    margin-left: 5rem;
+  }
+
+  .appointment-btn {
+    margin: auto;
+    margin-top: 2rem;
+  }
+
+  .prices-right {
+    width: 100%;
+  }
+
+  .price-row h3 {
+    font-size: 18px;
+    margin-top: 2rem;
+  }
+
+  .prices-section .price {
+    font-size: 18px;
+  }
+
+  .prices-section .the-line-wrapper{
+    justify-content: center;
+  }
+
+  .price-row {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .price-desc {
+    margin: auto;
+    margin-top: 1rem;
+    width: 90%;
+  }
+
+  .line {
+    width: 70%;
+    margin: 8px auto;
+  }
+
+  .counter-section {
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    text-align: center;
+    padding: 3rem 1.5rem;
+  }
+
+  .front-text {
+    font-size: 34px;
+  }
+
+  .back-text {
+    font-size: 50px;
+  }
+
+  .counter-box p {
+    font-size: 14px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+
+  .gallery-item img {
+    height: 230px;
+  }
+
+  .gallery-section h2 {
+    font-size: 32px;
+  }
+
+  .gallery-section .gold-script {
+    font-size: 50px;
+  }
+
+  .testi-section h2 {
+    font-size: 38px;
+  }
+
+  .testi-section{
+    padding: 2rem;
+  }
+
+  .testi-card {
+    padding: 1.8rem;
+    max-width: 85%;
+  }
+
+  .testi-card p {
+    width: 90%;
+    font-size: 15px;
+  }
+
+  .nav-btn {
+    font-size: 50px;
+  }
+
+  .nav-btn.left {
+    left: 10px;
+  }
+
+  .nav-btn.right {
+    right: 10px;
+  }
+
+  .contact-section {
+    flex-direction: column;
+    padding: 0rem;
+    gap: 2rem;
+  }
+
+  .contact-left,
+  .contact-form {
+    width: 100%;
+    position: relative;
+    right: 0;
+    padding: 2rem;
+  }
+
+  .contact-section h2 {
+    font-size: 36px;
+  }
+
+  .contact-desc,
+  .contact-info p,
+  .contact-info h3 {
+    font-size: 15px;
+  }
+
+  .form-2col {
+    flex-direction: column;
+  }
+
+  .submit-btn {
+    width: 100%;
+    padding: 15px;
+  }
+
+   .footer-insta-pop .insta-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-insta-pop .insta-grid img {
+    height: 120px;
+  }
+  .footer-col h3 {
+    font-size: 22px;
+  }
+  .footer-col li,
+  .footer-col p {
+    font-size: 16px;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .footer-insta-pop {
+    position: static;
+    width: 90%;
+    margin: 0 auto 2rem auto;
+    height: auto;
+    padding-top: 2rem;
+  }
+
+  .footer-insta-pop .the-line-wrapper{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-insta-pop img {
+    height: 150px;
+  }
+
+  .footer-bottom {
+    width: 100%;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    margin: auto;
+  }
+
+  .footer-col {
+    width: 100%;
+  }
+
+   .footer-insta-pop h2{
+    color: white;
+  }
+
+  .header-links {
+    display: none;
+  }
+
+  .header-menu-icon {
+    display: block;
+  }
+
+  .header-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .header-wrapper .special-heading-wrapper {
+    font-size: 32px;
+  }
+
+  .header-image {
+    width: 70%;
+    margin-bottom: -4rem;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .side-nav {
+    display: none;
+  }
+
+  .menu-btn {
+    display: block;
+    position: relative;
+    z-index: 9999;
+  }
+
+  .logo-menu-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .feature .icon-with-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+/* 768px – 990px */
+@media (min-width: 768px) and (max-width: 989px) {
+  .hero-left {
+    width: 60%;
+    padding: 2rem;
+  }
+
+  .logo {
+    font-size: 50px;
+  }
+
+  .sub-title {
+    font-size: 44px;
+  }
+
+  .title-line {
+    width: 100px;
+  }
+
+  .title {
+    font-size: 50px;
+  }
+
+  .description {
+    width: 90%;
+    font-size: 15px;
+  }
+
+  .services-btn {
+    font-size: 14px;
+  }
+
+
+  .hero-left {
+    width: 100%;
+  }
+
+  .hero-right {
+    width: 100%;
+  }
+
+  .logo-menu-wrapper{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header-nav{
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  .line-wrapper {
+    left: 58%;
+    bottom: 20%;
+  }
+
+    .about-section-content {
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .about-section .image-div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-section .image-div img {
+    width: 90%;
+    max-width: 420px;
+    min-width: 300px;
+    margin: 1.5rem 0;
+  }
+
+  .about-section .text-div {
+    flex: 1;
+    text-align: center;
+    margin-right: 4rem;
+  }
+
+  .about-section .text-div h2 {
+    font-size: 40px;
+  }
+
+  .heading-line {
+    width: 80px;
+  }
+
+  .about-section p {
+    font-size: 13.5px;
+    width: 95%;
+    margin: auto;
+  }
+
+  .about-section .main-title{
+    text-align: right;
+  }
+
+  .services-section {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .service-card {
+    padding: 3.5rem 2rem;
+  }
+
+  .service-top {
+    font-size: 50px;
+  }
+
+  .service-title {
+    font-size: 32px;
+  }
+
+  .service-sub {
+    font-size: 16px;
+    margin-bottom: 4.5rem;
+  }
+
+  .service-btn {
+    font-size: 12px;
+    padding: 10px 26px;
+  }
+
+  .section-content {
+    flex-direction: row;
+    gap: 1.5rem;
+    width: 95%;
+  }
+
+  .black-bg {
+    margin: auto;
+    height: 400px;
+    padding: 0.75rem;
+    align-items: center;
+    margin-left: 1rem;
+  }
+
+  .black-bg img {
+    height: 380px;
+  }
+
+  .meet-expert-text-content .special-heading-wrapper {
+    font-size: 46px;
+    justify-content: flex-end;
+  }
+
+  .meet-expert-text-content .main-title {
+    font-size: 34px;
+  }
+
+  .meet-expert-text-content p {
+    font-size: 14px;
+    width: 90%;
+  }
+
+   .circle-container {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    position: static;
+  }
+
+  .feature {
+    position: static !important;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+   .feature .icon-with-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .left-feature h3,
+  .right-feature h3,
+  .left-feature p,
+  .right-feature p,
+  .left-feature .icon,
+  .right-feature .icon {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .features-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+    order: 1;
+  }
+
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    order: 1;
+  }
+
+  .center-image {
+    position: static !important;
+    width: 320px;
+    height: auto;
+    transform: none;
+    order: 2;
+  }
+
+  .feature-4,
+  .feature-5,
+  .feature-6 {
+    order: 3;
+  }
+
+  .prices-section {
+    gap: 2rem;
+  }
+
+  .prices-left {
+    width: 45%;
+  }
+
+  .prices-section h2 {
+    font-size: 44px;
+  }
+
+  .prices-section .gold-script {
+    font-size: 60px;
+  }
+
+  .appointment-btn {
+    margin-top: 6rem;
+  }
+
+  .price-row h3 {
+    font-size: 19px;
+  }
+
+  .prices-section .price {
+    font-size: 19px;
+  }
+
+  .price-desc {
+    width: 85%;
+  }
+
+  .counter-section {
+    gap: 3rem;
+    padding: 3rem;
+  }
+
+  .front-text {
+    font-size: 36px;
+  }
+
+  .back-text {
+    font-size: 65px;
+  }
+
+  .counter-box p {
+    font-size: 14px;
+  }
+
+   .gallery-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .gallery-item img {
+    height: 240px;
+  }
+
+  .gallery-section h2 {
+    font-size: 36px;
+  }
+
+  .gallery-section .gold-script {
+    font-size: 55px;
+  }
+
+  .testi-section h2 {
+    font-size: 46px;
+  }
+
+  .testi-card {
+    padding: 2rem;
+    max-width: 75%;
+  }
+
+  .testi-card p {
+    width: 85%;
+    font-size: 15px;
+  }
+
+  .nav-btn {
+    font-size: 55px;
+  }
+
+  .nav-btn.left {
+    left: 40px;
+  }
+
+  .nav-btn.right {
+    right: 40px;
+  }
+
+  .contact-section {
+    flex-direction: row;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .contact-left,
+  .contact-form {
+    width: 48%;
+    padding: 3rem;
+    position: relative;
+    right: 0;
+  }
+
+  .contact-section h2 {
+    font-size: 42px;
+  }
+
+  .contact-desc,
+  .contact-info p,
+  .contact-info h3 {
+    font-size: 15px;
+  }
+
+  .form-2col {
+    flex-direction: row;
+  }
+
+  .submit-btn {
+    width: 120px;
+    padding: 16px;
+  }
+
+     .footer-insta-pop {
+    position: static;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto 3rem auto;
+    height: auto;
+    background: transparent;
+    padding-top: 2rem;
+  }
+
+  .footer-insta-pop h2{
+    color: white;
+  }
+
+  .footer-insta-pop img {
+    height: 160px;
+  }
+
+  .footer-bottom {
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding-bottom: 2rem;
+  }
+
+  .footer-col {
+    width: 45%;
+    text-align: center;
+  }
+
+  .footer-col h3, 
+  .footer-col p, 
+  .footer-col li, 
+  .work-title {
+    text-align: center;
+  }
+
+  .header-nav {
+    justify-content: space-between;
+  }
+
+  .header-wrapper h1 {
+    font-size: 38px;
+  }
+
+  .header-image {
+    width: 65%;
+  }
+
+  .side-nav a {
+    font-size: 14px;
+  }
+}
+
+/* 990px – 1200px */
+@media (min-width: 990px) and (max-width: 1199px) {
+  .hero-left {
+    width: 55%;
+  }
+
+  .logo {
+    font-size: 55px;
+  }
+
+  .sub-title {
+    font-size: 50px;
+  }
+
+  .title-line {
+    width: 110px;
+  }
+
+  .title {
+    font-size: 55px;
+  }
+
+  .description {
+    width: 85%;
+    font-size: 15px;
+  }
+
+  .services-btn {
+    font-size: 14px;
+  }
+
+  .hero-right {
+    width: 45%;
+  }
+
+  .side-nav a {
+    font-size: 17px;
+  }
+
+  .line-wrapper {
+    left: 55%;
+    bottom: 22%;
+  }
+
+  .about-section .text-div h2 {
+    font-size: 52px;
+  }
+
+  .heading-line {
+    width: 110px;
+  }
+
+  .about-section-content {
+    width: 95%;
+    gap: 2rem;
+  }
+
+  .about-section .image-div {
+    flex: 1;
+  }
+
+  .about-section .image-div img {
+    width: 100%;
+    max-width: 500px;
+    min-width: 350px;
+    margin: 2rem 0 2rem 1rem;
+  }
+
+  .about-section .text-div {
+    flex: 1;
+  }
+
+  .about-section .text-div h2 {
+    font-size: 48px;
+  }
+
+  .about-section p {
+    font-size: 14px;
+    width: 95%;
+  }
+
+  .service-card {
+    padding: 4rem 2rem;
+  }
+
+  .service-top {
+    font-size: 55px;
+  }
+
+  .service-title {
+    font-size: 34px;
+  }
+
+  .service-sub {
+    font-size: 16px;
+    margin-bottom: 5rem;
+  }
+
+  .service-btn {
+    font-size: 12px;
+    padding: 10px 28px;
+  }
+
+  .black-bg {
+    height: 450px;
+  }
+
+  .black-bg img {
+    height: 430px;
+  }
+
+  .meet-expert-text-content .special-heading-wrapper {
+    font-size: 50px;
+  }
+
+  .meet-expert-text-content .main-title {
+    font-size: 38px;
+  }
+
+  .meet-expert-text-content p {
+    font-size: 14px;
+  }
+
+  .circle-container {
+    margin: 1rem auto;
+  }
+
+.feature-1 { top: 5%; left: 2%;   }
+.feature-2 { top: 5%; right: 2%;  }
+.feature-3 { top: 41%; left: 2%;  }
+.feature-4 { top: 41%; right: 2%; }
+.feature-5 { top: 75%; left: 2%; }
+.feature-6 { top: 75%; right: 2% }
+
+.center-image {
+  position: absolute;
+  top: 50%;
+  left: 52%;
+  width: 200px;
+  height: 350px;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+
+   .prices-left {
+    width: 45%;
+  }
+
+  .prices-section h2 {
+    font-size: 48px;
+  }
+
+  .prices-section .gold-script {
+    font-size: 65px;
+  }
+
+  .appointment-btn {
+    margin-top: 7rem;
+  }
+
+  .price-row h3 {
+    font-size: 19px;
+  }
+
+  .prices-section .price {
+    font-size: 19px;
+  }
+
+  .price-desc {
+    width: 80%;
+  }
+
+   .counter-section {
+    gap: 4rem;
+    padding: 3rem;
+  }
+
+  .front-text {
+    font-size: 38px;
+  }
+
+  .back-text {
+    font-size: 80px;
+  }
+
+  .counter-box p {
+    font-size: 15px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 22px;
+  }
+
+  .gallery-item img {
+    height: 250px;
+  }
+
+  .gallery-section h2 {
+    font-size: 40px;
+  }
+
+  .gallery-section .gold-script {
+    font-size: 65px;
+  }
+
+  .testi-section h2 {
+    font-size: 52px;
+  }
+
+  .testi-card {
+    max-width: 70%;
+    padding: 2.2rem;
+  }
+
+  .testi-card p {
+    width: 80%;
+    font-size: 16px;
+  }
+
+  .nav-btn.left {
+    left: 70px;
+  }
+
+  .nav-btn.right {
+    right: 70px;
+  }
+
+  .contact-section {
+    flex-direction: row;
+    padding: 2rem;
+    gap: 3rem;
+  }
+
+  .contact-left,
+  .contact-form {
+    width: 48%;
+    padding: 3rem;
+  }
+
+  .contact-section h2 {
+    font-size: 46px;
+  }
+
+  .contact-desc,
+  .contact-info p,
+  .contact-info h3 {
+    font-size: 16px;
+  }
+
+  .footer-insta-pop {
+    right: 20px;
+    top: -380px;
+    width: 380px;
+    height: 450px;
+  }
+
+  .footer-bottom {
+    width: 55%;
+    gap: 80px;
+  }
+
+  .footer-insta-pop img {
+    height: 150px;
+  }
+
+ .header-links {
+    gap: 30px;
+  }
+
+  .header-image {
+    width: 55%;
+  }
+}
+@media (max-width:1020px){
+  .meet-expert-text-content h3,.meet-expert-text-content ul {
+    margin: auto;
+  }
+  .meet-expert-text-content h3{
+    margin-bottom: 1rem;
+  }
+}
