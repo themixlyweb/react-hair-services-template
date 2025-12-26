@@ -17,7 +17,7 @@
 <ul>
   <li>🚀 <a href="https://themixly.com/preview/2399/react-template-for-hair-salon/" target="_blank">Live Demo – TheHairEdit Template</a></li>
   <li>🛒 <a href="https://themixly.com/themes/react-template-for-hair-salon/" target="_blank">Buy Full Version on Themixly</a></li>
-  <li>📦 <a href="https://github.com/themixlyweb/react-hair-salon-website-template" target="_blank">Download from GitHub  (Free)</a></li>
+  <li>📦 <a href="https://github.com/themixlyweb/react-hair-services-template" target="_blank">Download from GitHub  (Free)</a></li>
 </ul>
 
 <h2>🧩 Feature Comparison: GitHub Free vs Themixly Pro</h2>
